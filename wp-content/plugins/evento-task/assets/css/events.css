@@ -1,0 +1,16 @@
+.event_form {
+    padding: 30px;
+}
+.event_form .input_box {
+    padding: 15px 0;
+    width:49%;
+    display: inline-block;
+}
+.event_form .input_box label {
+    font-size: 18px;
+    display: block;
+}
+.event_form .input_box input{
+    padding: 10px;
+    width: 98%;
+}

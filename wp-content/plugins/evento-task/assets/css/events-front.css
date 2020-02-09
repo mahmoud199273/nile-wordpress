@@ -1,0 +1,44 @@
+.evento-list {
+    background-color: #f7f7f7;
+    padding: 15px !important;
+    border-radius: 5px;
+}
+.evento-list li {
+    border-bottom: 1px dashed #eeeeee;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    min-height: 70px;
+    position: relative;
+}
+.evento-list .event-dates {
+    padding: 3px 0;
+    font-size: 12px;
+    color: #bc906b;
+}
+.evento-list  .evento-title {
+    margin: 0;
+}
+.evento-list  .evento-title a{
+    color: inherit;
+}
+.evento-list .evento-thumb-link{
+    position: absolute;
+    left: 0;
+}
+.evento-list .evento-thumb{
+    width: 60px;
+    height: 60px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.evento-list .evento-meta span {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    display: inline-block;
+}
